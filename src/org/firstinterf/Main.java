@@ -1,0 +1,19 @@
+package org.firstinterf;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Vehicle car = new Car();
+		Vehicle bike = new Bike();
+		
+		car.start();
+		car.stop();
+		System.out.println("========");
+		bike.start();
+		bike.stop();
+
+
+	}
+
+}
